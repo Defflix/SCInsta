@@ -117,7 +117,7 @@ jobs:
 
           bash -c "$(curl https://raw.githubusercontent.com/asdfzxcvbn/pyzule/main/install-pyzule.sh)"
 
-          ipaFile="/Users/runner/work/SCInsta/SCInsta/SCInsta/packages/com.burbn.instagram.ipa"
+          ipaFile="/Users/runner/work/SCInsta/SCInsta/packages/com.burbn.instagram.ipa"
           echo "IPA File: $ipaFile"
 
           ls -l
@@ -150,5 +150,4 @@ jobs:
           files: |
             /Users/runner/work/SCInsta/SCInsta/SCInsta/packages/*.ipa
             /Users/runner/work/SCInsta/SCInsta/SCInsta/packages/*.deb
-
-          
+            
