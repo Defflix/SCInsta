@@ -5,7 +5,7 @@ A feature-rich tweak for Instagram, with added focus features, on iOS!\
 ---
 
 > [!NOTE]
-> ❗️&nbsp;This is an SCInsta fork with VLBHInsta's focus features. I'm an absolute beginner when it comes to programming, so if you encounter any issues (besides issues with the features added in this fork), report them to the [original SCInsta repo](https://github.com/SoCuul/SCInsta). \
+> ❗️&nbsp;This is an SCInsta fork with VLBHInsta's focus features. I'm an absolute beginner when it comes to programming, so if you encounter any issues (besides issues with the features added in this fork), report them to the [original SCInsta repo](https://github.com/SoCuul/SCInsta).
 >
 > ❓ &nbsp;If you have any questions or need help with the tweak, visit the [Discussions](https://github.com/Defflix/SCInsta/discussions) tab.
 >
