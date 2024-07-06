@@ -2,7 +2,7 @@
 # https://github.com/arichornlover/uYouEnhanced/blob/main/.github/workflows/buildapp.yml
 # https://github.com/ISnackable/YTCubePlus/blob/main/.github/workflows/Build.yml
 
-name: Build and Package SCInsta
+name: Build and Package SCInsta-Focus
 
 on:
   workflow_dispatch:
@@ -33,7 +33,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   build:
-    name: Build SCInsta
+    name: Build SCInsta-Focus
     runs-on: macos-latest
     permissions:
       contents: write
@@ -96,7 +96,7 @@ jobs:
           
       - name: Clone SCInsta Repo
         run: |
-          git clone --recurse-submodules https://github.com/zeuikli/SCInsta
+          git clone --recurse-submodules https://github.com/Defflix/SCInsta-Focus
           pwd
           mkdir -p packages
 
@@ -110,14 +110,14 @@ jobs:
           
       - name: Build SCInsta tweak for sideloading (as IPA)
         run: |
-          PROJECT_PATH=/Users/runner/work/SCInsta/SCInsta/SCInsta/
+          PROJECT_PATH=/Users/runner/work/SCInsta-Focus/SCInsta-Focus/SCInsta-Focus/
           cd $PROJECT_PATH
           
           CMAKE_OSX_ARCHITECTURES="arm64e;arm64"
 
           bash -c "$(curl https://raw.githubusercontent.com/asdfzxcvbn/pyzule/main/install-pyzule.sh)"
 
-          ipaFile="/Users/runner/work/SCInsta/SCInsta/packages/com.burbn.instagram.ipa"
+          ipaFile="/Users/runner/work/SCInsta-Focus/SCInsta-Focus/packages/com.burbn.instagram.ipa"
           echo "IPA File: $ipaFile"
 
           ls -l
@@ -126,7 +126,7 @@ jobs:
           ./build.sh rootless
           ./build.sh rootful
 
-          ls -l /Users/runner/work/SCInsta/SCInsta/SCInsta/packages
+          ls -l /Users/runner/work/SCInsta-Focus/SCInsta-Focus/SCInsta-Focus/packages
           
         env:
           THEOS: ${{ github.workspace }}/theos
@@ -136,7 +136,7 @@ jobs:
         uses: actions/upload-artifact@v4.3.1
         with:
           name: SCInsta_${{ github.run_number }}
-          path: /Users/runner/work/SCInsta/SCInsta/SCInsta/packages/SCInsta-sideloaded.ipa
+          path: /Users/runner/work/SCInsta-Focus/SCInsta-Focus/SCInsta-Focus/packages/SCInsta-sideloaded.ipa
           if-no-files-found: error
 
       - name: Create Release
@@ -148,7 +148,7 @@ jobs:
           tag_name: v0.4.1
           name: v0.4.1
           files: |
-            /Users/runner/work/SCInsta/SCInsta/SCInsta/packages/*.ipa
-            /Users/runner/work/SCInsta/SCInsta/SCInsta/packages/*.deb
+            /Users/runner/work/SCInsta-Focus/SCInsta-Focus/SCInstaFocus/packages/*.ipa
+            /Users/runner/work/SCInsta-Focus/SCInsta-Focus/SCInsta-Focus/packages/*.deb
 
           
