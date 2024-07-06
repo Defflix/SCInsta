@@ -145,8 +145,9 @@
             // Section 9: Credits
             [self newSectionWithTitle:@"Credits" footer:[NSString stringWithFormat:@"SCInsta %@\n\nInstagram v%@", SCIVersionString, [SCIUtils IGVersionString]]],
             [self newLinkCellWithTitle:@"Developer" detailTitle:@"SoCuul" url:@"https://socuul.dev" iconURL:@"https://i.imgur.com/WSFMSok.png"],
-            [self newLinkCellWithTitle:@"Donate" detailTitle:@"Consider donating if you enjoy this tweak!" url:@"https://ko-fi.com/socuul" iconURL:nil],
-            [self newLinkCellWithTitle:@"View Repo" detailTitle:@"View the tweak's source code on GitHub" url:@"https://github.com/SoCuul/SCInsta" iconURL:nil]
+            [self newLinkCellWithTitle:@"'Developer'?" detailTitle:@"Defflix" iconURL:nil],
+            [self newLinkCellWithTitle:@"Donate to SoCuul" detailTitle:@"Consider donating if you enjoy this tweak!" url:@"https://ko-fi.com/socuul" iconURL:nil],
+            [self newLinkCellWithTitle:@"View Repo" detailTitle:@"View the tweak's source code on GitHub" url:@"https://github.com/Defflix/SCInsta" iconURL:nil]
         ]];
         
         [self collectDynamicSpecifiersFromArray:_specifiers];
