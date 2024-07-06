@@ -145,8 +145,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: v0.5.0f
-          name: v0.5.0f
+          tag_name: v0.5.0
+          name: v0.5.0
           files: |
             /Users/runner/work/SCInsta/SCInsta/SCInsta/packages/*.ipa
             /Users/runner/work/SCInsta/SCInsta/SCInsta/packages/*.deb
