@@ -111,7 +111,7 @@ After building the tweak for sideloading, you can install the tweaked IPA file l
 | <img src="https://i.imgur.com/E844fYy.png"> |
 
 # Contributing
-If you wish to contribute to this project, go contribute to the ogirinal [SoCuul's SCInsta](https://github.com/SoCuul/SCInsta). Contributions are way more probable to make it into the tweak over there.
+If you wish to contribute to this project, go contribute to the original [SoCuul's SCInsta](https://github.com/SoCuul/SCInsta). Contributions are way more probable to make it into the tweak over there.
 
 # Support the project
 (Original message from SoCuul, go support them!)
