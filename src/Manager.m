@@ -56,9 +56,6 @@
 + (BOOL)copyDecription {
     return [[NSUserDefaults standardUserDefaults] boolForKey:@"copy_description"];
 }
-+ (BOOL)removeReelsTab {
-    return [[NSUserDefaults standardUserDefaults] boolForKey:@"remove_reels_tab"];
-}
 + (BOOL)blockAllReels {
     return [[NSUserDefaults standardUserDefaults] boolForKey:@"block_all_reels"];
 }
