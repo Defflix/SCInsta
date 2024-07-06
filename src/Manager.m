@@ -26,6 +26,9 @@
 + (BOOL)removeSuggestedThreads {
     return [[NSUserDefaults standardUserDefaults] boolForKey:@"no_suggested_threads"];
 }
++ (BOOL)removeFeedPost {
+    return [[NSUserDefaults standardUserDefaults] boolForKey:@"remove_feed_post"];
+}
 + (BOOL)postLikeConfirmation {
     return [[NSUserDefaults standardUserDefaults] boolForKey:@"like_confirm"];
 }
@@ -52,6 +55,12 @@
 }
 + (BOOL)copyDecription {
     return [[NSUserDefaults standardUserDefaults] boolForKey:@"copy_description"];
+}
++ (BOOL)removeReelsTab {
+    return [[NSUserDefaults standardUserDefaults] boolForKey:@"remove_reels_tab"];
+}
++ (BOOL)blockAllReels {
+    return [[NSUserDefaults standardUserDefaults] boolForKey:@"block_all_reels"];
 }
 + (BOOL)hideReelsTab {
     return [[NSUserDefaults standardUserDefaults] boolForKey:@"hide_reels_tab"];
