@@ -1,6 +1,7 @@
-# SCInsta
+# SCInsta-Focus
 A feature-rich tweak for Instagram on iOS!\
-`Version v0.5.0` | `Tested on Instagram v337.0.2`
+SCInsta fork with VLBHInsta's Focus features\
+`Version v0.5.0f` | `Tested on Instagram v337.0.2`
 
 ---
 
