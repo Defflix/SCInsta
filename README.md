@@ -1,7 +1,7 @@
-# SCInsta-Focus
+# SCInsta (Focus)
 A feature-rich tweak for Instagram on iOS!\
 SCInsta fork with VLBHInsta's Focus features\
-`Version v0.5.0f` | `Tested on Instagram v337.0.2`
+`Version v0.5.0` | `Tested on Instagram v338.1.0`
 
 ---
 
@@ -18,7 +18,6 @@ SCInsta fork with VLBHInsta's Focus features\
 ### General
 - Hide Meta AI
 - Copy description
-- Hide reels tab
 - Do not save recent searches
 - Hide explore posts grid
 - Hide trending searches
@@ -31,6 +30,11 @@ SCInsta fork with VLBHInsta's Focus features\
 - No suggested for you (accounts)
 - No suggested reels
 - No suggested threads posts
+
+### Focus
+- Remove feed posts
+- Hide reels tab
+- Block all reels
 
 ### Confirm actions
 - Confirm like: Posts
