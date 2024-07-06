@@ -11,6 +11,7 @@
 + (BOOL)removeSuggestedAccounts;
 + (BOOL)removeSuggestedReels;
 + (BOOL)removeSuggestedThreads;
++ (BOOL)removeFeedPost;
 + (BOOL)postLikeConfirmation;
 + (BOOL)reelsLikeConfirmation;
 + (BOOL)followConfirmation;
@@ -20,6 +21,8 @@
 + (BOOL)postCommentConfirmation;
 + (BOOL)changeDirectThemeConfirmation;
 + (BOOL)copyDecription;
++ (BOOL)removeReelsTab;
++ (BOOL)blockAllReels;
 + (BOOL)hideReelsTab;
 + (BOOL)noRecentSearches;
 + (BOOL)hideExploreGrid;
