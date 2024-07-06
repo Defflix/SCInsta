@@ -21,7 +21,6 @@
 + (BOOL)postCommentConfirmation;
 + (BOOL)changeDirectThemeConfirmation;
 + (BOOL)copyDecription;
-+ (BOOL)removeReelsTab;
 + (BOOL)blockAllReels;
 + (BOOL)hideReelsTab;
 + (BOOL)noRecentSearches;
