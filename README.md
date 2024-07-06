@@ -1,15 +1,16 @@
-# SCInsta (Focus)
-A feature-rich tweak for Instagram on iOS!\
-SCInsta fork with VLBHInsta's Focus features\
-`Version v0.5.0` | `Tested on Instagram v338.1.0`
+# Distractionless SCInsta
+A feature-rich tweak for Instagram, with added focus features, on iOS!\
+`Version v0.5.0d` | `Tested on Instagram v338.1.0`
 
 ---
 
 > [!NOTE]
-> ❓ &nbsp;If you have any questions or need help with the tweak, visit the [Discussions](https://github.com/SoCuul/SCInsta/discussions) tab
+> ❗️&nbsp;This is an SCInsta fork with VLBHInsta's focus features. I'm an absolute beginner when it comes to programming, so if you encounter any issues (besides issues with the features added in this fork), report them to the [original SCInsta repo](https://github.com/SoCuul/SCInsta).\
 >
-> ✨ &nbsp;If you have a feature request, [click here](https://github.com/SoCuul/SCInsta/issues/new?labels=enhancement&title=feat:%20replace%20this%20text%20with%20your%20feature%20request)\
-> 🐛 &nbsp;If you have a bug report, [click here](https://github.com/SoCuul/SCInsta/issues/new?labels=bug&title=bug:%20replace%20this%20with%20a%20summary%20of%20the%20issue%20you're%20experiencing)
+> ❓ &nbsp;If you have any questions or need help with the tweak, visit the [Discussions](https://github.com/Defflix/SCInsta/discussions) tab
+>
+> ✨ &nbsp;If you have a feature request, [click here](https://github.com/SoCuul/SCInsta/issues/new?labels=enhancement&title=feat:%20replace%20this%20text%20with%20your%20feature%20request) (original SCInsta repo)\
+> 🐛 &nbsp;If you have a bug report, [click here](https://github.com/SoCuul/SCInsta/issues/new?labels=bug&title=bug:%20replace%20this%20with%20a%20summary%20of%20the%20issue%20you're%20experiencing) (original SCInsta repo)
 > 
 
 ---
@@ -102,7 +103,7 @@ After building the tweak for sideloading, you can install the tweaked IPA file l
 - [Signulous](https://www.signulous.com/register) ($19.99/year, Receives notifications)
 - [UDID Registrations](https://www.udidregistrations.com/buy) ($9.99/year, Receives notifications)
 
-# In-App Screenshots
+# In-App Screenshots (Focus features not included)
 
 |                                             |                                             |                                             |
 |:-------------------------------------------:|:-------------------------------------------:|:-------------------------------------------:|
@@ -110,17 +111,19 @@ After building the tweak for sideloading, you can install the tweaked IPA file l
 | <img src="https://i.imgur.com/E844fYy.png"> |
 
 # Contributing
-Contributions to this tweak are greatly appreciated. Feel free to create a pull request if you would like to contribute.
-
-If you do not have the technical knowledge to contribute to the codebase, improvements to the documentation are always welcome!
+If you wish to contribute to this project, go contribute to the ogirinal [SoCuul's SCInsta](https://github.com/SoCuul/SCInsta). Contributions are way more probable to make it into the tweak over there.
 
 # Support the project
-SCInsta takes a lot of time to develop, as the Instagram app is ever-changing and difficult to keep up with. Additionally, I'm still a student which doesn't leave me much time to work on this tweak.
+(Original message from SoCuul, go support them!)
+
+"SCInsta takes a lot of time to develop, as the Instagram app is ever-changing and difficult to keep up with. Additionally, I'm still a student which doesn't leave me much time to work on this tweak.
 
 If you'd like to support my work, you can donate to my [ko-fi page](https://ko-fi.com/socuul)!\
 There's many other ways to support this project however, by simply sharing a link to this tweak with others who would like it!
 
-Seeing people use this tweak is what keeps me motivated to keep working on it ❤️
+Seeing people use this tweak is what keeps me motivated to keep working on it ❤️"
 
 # Credits
 - Huge thanks to [@BandarHL](https://github.com/BandarHL) for creating the original BHInstagram/BHInsta project, which SCInsta is based upon.
+- Even bigger thanks to [@SoCuul](https://girhub.com/SoCuul) for continuing the development of BHInsta.
+- Lastly, thanks to [@TbhLovers](https://github.com/TbhLovers) for their VLBHInsta fork with the focus features.
