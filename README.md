@@ -24,7 +24,7 @@ A feature-rich tweak for Instagram, with added focus features, on iOS!\
 - No suggested chats (in dms)
 
 ### Feed
-- Hide ads
+- Remove ads
 - Hide stories tray
 - No suggested posts
 - No suggested for you (accounts)
