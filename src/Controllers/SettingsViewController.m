@@ -106,7 +106,7 @@
             // Section 3: Focus
             [self newSectionWithTitle:@"Focus" footer:nil],
             [self newSwitchCellWithTitle:@"Remove feed posts" detailTitle:@"Removes every posts in the main feed" key:@"remove_feed_post" defaultValue:false changeAction:nil],
-            [self newSwitchCellWithTitle:@"Remove explore/search posts" detailTitle:@"Hides the grid of suggested posts on the explore/search tab" key:@"hide_explore_grid" defaultValue:false changeAction:nil],
+            [self newSwitchCellWithTitle:@"Remove explore/search posts" detailTitle:@"Removes the grid of suggested posts on the explore/search tab" key:@"hide_explore_grid" defaultValue:false changeAction:nil],
             [self newSwitchCellWithTitle:@"Hide reels tab" detailTitle:@"Hides the reels tab on the bottom navigation bar" key:@"hide_reels_tab" defaultValue:false changeAction:nil],            
             [self newSwitchCellWithTitle:@"Block all reels" detailTitle:@"Completely block all reels from loading" key:@"block_all_reels" defaultValue:false changeAction:nil],
             
