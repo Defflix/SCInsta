@@ -2,7 +2,7 @@ Package: com.socuul.scinsta
 Name: SCInsta
 Version: 0.5.0d
 Architecture: iphoneos-arm
-Description: A feature-rich tweak for Instagram on iOS!
+Description: A feature-rich tweak for Instagram, with added focus features, on iOS!
 Maintainer: SoCuul
 Author: SoCuul
 Section: Tweaks
