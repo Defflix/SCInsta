@@ -5,7 +5,7 @@ A feature-rich tweak for Instagram, with added focus features, on iOS!\
 ---
 
 > [!NOTE]
-> ❗️&nbsp;This is an [SCInsta](https://github.com/SoCuul/SCInsta) fork with [VLBHInsta](https://github.com/TbhLovers/VLBHInsta)'s focus features. I'm new to programming, therefore all [hyperlink](https://en.m.wikipedia.org/wiki/Hyperlink)s below are kept from the [original SCInsta repo](https://github.com/SoCuul/SCInsta).
+> ❗️&nbsp;This is an [SCInsta](https://github.com/SoCuul/SCInsta) fork with [VLBHInsta](https://github.com/TbhLovers/VLBHInsta)'s focus features. I'm new to programming, therefore all hyperlinks below are kept from the original [SoCuul's SCInsta repo](https://github.com/SoCuul/SCInsta).
 >
 > ❓ &nbsp;If you have any questions or need help with the tweak, visit the [Discussions](https://github.com/SoCuul/SCInsta/discussions) tab.
 >
@@ -111,7 +111,7 @@ After building the tweak for sideloading, you can install the tweaked IPA file l
 | <img src="https://i.imgur.com/E844fYy.png"> |
 
 # Contributing
-If you wish to contribute to this project, go contribute to the original [SoCuul's SCInsta](https://github.com/SoCuul/SCInsta). Contributions are way more probable to make it into the tweak over there.
+If you wish to contribute to this project, go contribute to the original [SoCuul's SCInsta repo](https://github.com/SoCuul/SCInsta). Contributions are way more probable to make it into the tweak over there.
 
 # Support the project
 (Original message from SoCuul, go support them!)
@@ -126,4 +126,4 @@ Seeing people use this tweak is what keeps me motivated to keep working on it �
 # Credits
 - Huge thanks to [@BandarHL](https://github.com/BandarHL) for creating the original BHInstagram/BHInsta project, which SCInsta is based upon.
 - Even bigger thanks to [@SoCuul](https://girhub.com/SoCuul) for continuing the development of BHInsta.
-- Lastly, thanks to [@TbhLovers](https://github.com/TbhLovers) for their VLBHInsta fork with the focus features.
+- Thanks to [@TbhLovers](https://github.com/TbhLovers) for their VLBHInsta fork with the focus features.
