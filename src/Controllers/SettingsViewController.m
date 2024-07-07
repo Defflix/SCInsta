@@ -90,7 +90,6 @@
             [self newSwitchCellWithTitle:@"Hide Meta AI" detailTitle:@"Hides the meta ai buttons within the app" key:@"hide_meta_ai" defaultValue:false changeAction:nil],
             [self newSwitchCellWithTitle:@"Copy description" detailTitle:@"Copy the post description with a long press" key:@"copy_description" defaultValue:true changeAction:nil],
             [self newSwitchCellWithTitle:@"Do not save recent searches" detailTitle:@"Search bars will no longer save your recent searches" key:@"no_recent_searches" defaultValue:false changeAction:nil],
-            [self newSwitchCellWithTitle:@"Hide explore posts grid" detailTitle:@"Hides the grid of suggested posts on the explore/search tab" key:@"hide_explore_grid" defaultValue:false changeAction:nil],
             [self newSwitchCellWithTitle:@"Hide trending searches" detailTitle:@"Hides the trending searches under the explore search bar" key:@"hide_trending_searches" defaultValue:true changeAction:nil],
             [self newSwitchCellWithTitle:@"No suggested chats" detailTitle:@"Hides the suggested broadcast channels in direct messages" key:@"no_suggested_chats" defaultValue:true changeAction:nil],
             [self newSwitchCellWithTitle:@"No suggested users" detailTitle:@"Hides the suggested users for you to follow" key:@"no_suggested_users" defaultValue:false changeAction:nil],
@@ -106,7 +105,8 @@
 
             // Section 3: Focus
             [self newSectionWithTitle:@"Focus" footer:nil],
-            [self newSwitchCellWithTitle:@"Remove feed posts" detailTitle:@"Removes every posts in main feed" key:@"remove_feed_post" defaultValue:false changeAction:nil],
+            [self newSwitchCellWithTitle:@"Remove feed posts" detailTitle:@"Removes every posts in the main feed" key:@"remove_feed_post" defaultValue:false changeAction:nil],
+            [self newSwitchCellWithTitle:@"Remove explore/search posts" detailTitle:@"Hides the grid of suggested posts on the explore/search tab" key:@"hide_explore_grid" defaultValue:false changeAction:nil],
             [self newSwitchCellWithTitle:@"Hide reels tab" detailTitle:@"Hides the reels tab on the bottom navigation bar" key:@"hide_reels_tab" defaultValue:false changeAction:nil],            
             [self newSwitchCellWithTitle:@"Block all reels" detailTitle:@"Completely block all reels from loading" key:@"block_all_reels" defaultValue:false changeAction:nil],
             
