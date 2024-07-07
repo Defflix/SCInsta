@@ -20,7 +20,6 @@ A feature-rich tweak for Instagram, with added focus features, on iOS!\
 - Hide Meta AI
 - Copy description
 - Do not save recent searches
-- Hide explore posts grid
 - Hide trending searches
 - No suggested chats (in dms)
 
@@ -34,6 +33,7 @@ A feature-rich tweak for Instagram, with added focus features, on iOS!\
 
 ### Focus
 - Remove feed posts
+- Remove explore/search posts
 - Hide reels tab
 - Block all reels
 
