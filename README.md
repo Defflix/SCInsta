@@ -70,7 +70,7 @@ A feature-rich tweak for Instagram, with added focus features, on iOS!\
 # Installation
 >[!IMPORTANT]
 > Which type of device are you planning on installing this tweak on?
-> - Jailbroken/TrollStore device -> [Download pre-built tweak](https://github.com/SoCuul/SCInsta/releases/latest)
+> - Jailbroken/TrollStore device -> [Download pre-built tweak](https://github.com/Defflix/SCInsta/releases/latest)
 > - Standard iOS device -> Read "Building" section below
 
 ## Building
